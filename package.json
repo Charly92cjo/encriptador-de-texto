@@ -1,0 +1,27 @@
+{
+  "name": "alura",
+  "version": "1.0.0",
+  "description": "Encriptador de texto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charly92cjo/encriptador-de-texto.git"
+  },
+  "keywords": [
+    "encriptador",
+    "alura",
+    "latam",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Carlos Javier Otero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charly92cjo/encriptador-de-texto/issues"
+  },
+  "homepage": "https://github.com/Charly92cjo/encriptador-de-texto#readme"
+}
