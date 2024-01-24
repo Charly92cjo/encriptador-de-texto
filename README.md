@@ -1,3 +1,5 @@
+![Muñeco alura](src/img/muñeco.svg)
+
 # Alura Latam - ONE Encryptor
 
 Este proyecto es un simple encriptador de texto llamado Alura Latam - ONE. Permite a los usuarios encriptar mensajes de texto de manera segura utilizando un algoritmo interno personalizado.
@@ -25,10 +27,9 @@ Este proyecto es un simple encriptador de texto llamado Alura Latam - ONE. Permi
 
 Siéntete libre de contribuir al proyecto. Puedes reportar problemas, proponer nuevas características o enviar pull requests. ¡Tu participación es bienvenida!
 
-## Licencia
+## Autor 
 
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
+**Carlos Javier Otero**
 
----
 
 ¡Gracias por utilizar Alura Latam - ONE Encryptor! Esperamos que te sea útil y seguro para tus comunicaciones.
