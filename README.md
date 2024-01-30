@@ -31,5 +31,10 @@ Siéntete libre de contribuir al proyecto. Puedes reportar problemas, proponer n
 
 **Carlos Javier Otero**
 
-
 ¡Gracias por utilizar Alura Latam - ONE Encryptor! Esperamos que te sea útil y seguro para tus comunicaciones.
+
+## Imagenes de la página
+
+![pagina desktop](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador.png)
+![pagina movile](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador2.png)
+
