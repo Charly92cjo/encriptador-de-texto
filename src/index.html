@@ -12,21 +12,24 @@
 
 <body class="bg-background mx-10 h-[100vh]">
     <header>
-
-        <nav>
+        <nav class="mt-3">
             <img src="img/Logo.svg" alt="Logo Alura">
         </nav>
     </header>
     <main>
 
         <h1 class="text-2xl font-bold mb-4 font-serif">Encriptador y desencritador de texto</h1>
-        <div class="grid grid-cols-1 md:grid-cols-3 h-[80%]">
-            <section class="card col-span-2 md:grid-cols-3 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3">
+            <section class="card col-span-2 md:grid-cols-3 mx-auto ">
                 <textarea type="text" id="textarea" name="input-texto"
-                    class="w-full bg-background resize-none placeholder:text-secondary placeholder:text-2xl placeholder:font-bold text-secondary"
-                    placeholder="Ingrese el texto aquí" rows="15"></textarea>
+                    class="w-full  bg-background resize-none placeholder:text-secondary placeholder:text-2xl placeholder:font-bold text-secondary"
+                    placeholder="Ingrese el texto aquí" rows="14"></textarea>
                 <div class="md:block grid place-content-center">
-                    <p class="[font-size:0.6rem]">ℹ️Solo letras minusculas y sin acento</p>
+                    <p class="[font-size:0.6rem] cursor-help"
+                        title="solo letras minúsculas, sin acentos ni caracteres especiales">
+                        <span class="text-white bg-slate-400 rounded-full px-1"> !</span> Solo letras
+                        minúsculas y sin acentos
+                    </p>
                     <button onclick="encriptar()"
                         class="bg-secondary hover:bg-blue-700 my-3 text-white font-bold py-2 px-8 rounded-xl mx-2">Encriptar</button>
                     <button onclick="desencriptar()"
@@ -45,7 +48,7 @@
                 <label id="label-texto" for="salida-texto" style="display: none;"
                     class="text-xl text-secondary mb-4 font-bold"></label>
                 <textarea class="resize-none" type="text" id="salida-texto" name="salida-texto" style="display: none;"
-                    rows="15"></textarea>
+                    rows="12"></textarea>
                 <button class="bg-secondary hover:bg-blue-700 my-3 text-white font-bold py-2 px-2 rounded-xl mx-2"
                     id="boton-copiar" onclick="copiar()" style="display:none">Copiar</button>
             </section>
@@ -61,7 +64,7 @@
                 github
             </a>
         </section>
-        <section class="flex warning-text">
+        <section class="mx-auto">
             Carlos Otero - Alura Latam &#169;<span id="ano-actual"></span>
         </section>
     </footer>

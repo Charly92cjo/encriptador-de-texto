@@ -587,6 +587,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -595,20 +600,24 @@ video {
   margin-top: 0px;
 }
 
-.mb-\[400px\] {
-  margin-bottom: 400px;
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-3 {
   margin-top: 0.75rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
+.mt-1 {
+  margin-top: 0.25rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .block {
@@ -639,20 +648,32 @@ video {
   height: 80%;
 }
 
+.h-\[75\%\] {
+  height: 75%;
+}
+
+.h-\[70\%\] {
+  height: 70%;
+}
+
+.h-\[60\%\] {
+  height: 60%;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
+.cursor-help {
+  cursor: help;
 }
 
 .resize-none {
   resize: none;
-}
-
-.resize {
-  resize: both;
 }
 
 .grid-cols-1 {
@@ -661,6 +682,10 @@ video {
 
 .place-content-center {
   place-content: center;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-lg {
@@ -685,6 +710,11 @@ video {
   background-color: rgb(243 245 252 / var(--tw-bg-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-secondary {
   --tw-bg-opacity: 1;
   background-color: rgb(10 56 113 / var(--tw-bg-opacity));
@@ -697,6 +727,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .px-2 {
@@ -719,16 +754,22 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pb-0 {
-  padding-bottom: 0px;
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .text-center {
   text-align: center;
-}
-
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .font-serif {
@@ -767,16 +808,6 @@ body {
   background-color: #f3f5fc;
 }
 
-.placeholder\:text-xl::-moz-placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.placeholder\:text-xl::placeholder {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .placeholder\:text-2xl::-moz-placeholder {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -813,10 +844,6 @@ body {
 .hover\:bg-slate-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.hover\:font-serif:hover {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 @media (min-width: 768px) {
