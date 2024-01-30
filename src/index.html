@@ -3,10 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--Meta Tags SEO -->
+    <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Latam - ONE</title>
+    <!-- Título de la Página -->
+    <title>Charly Otero - Alura Latam - ONE</title>
+    <!-- Descripción de la Página -->
+    <meta name="description"
+        content="Generador de texto para encriptar y desencriptar textos. Herramienta simple con opción para copiar el texto generado.">
+    <!-- Palabras Clave -->
+    <meta name="keywords" content="Alura Latam, Oracle, Next Education, ONE">
+    <!-- Autor -->
+    <meta name="author" content="Carlos Otero (Charly)">
+    <!-- Idioma -->
+    <meta http-equiv="content-language" content="es-AR">
+    <!-- Tipo de Contenido -->
+    <meta property="og:type" content="website">
+    <!--URL Canónica-->
+    <!-- <link rel="canonical" href="https://tu-usuario.github.io/tu-repositorio/pagina-principal"> -->
+    <!--Agregar la url correspondiente-->
+    <!-- Meta Etiquetas para Redes Sociales -->
+    <meta property="og:title" content="Charly Otero - Alura Latam - ONE">
+    <meta property="og:description"
+        content="Generador de texto para encriptar y desencriptar textos. Herramienta simple con opción para copiar el texto generado.">
+    <meta property="linkedin:author" content="https://www.linkedin.com/in/charlyotero/">
+    <meta property="github:author" content="https://github.com/Charly92cjo">
+    <meta name="twitter:image" content="URL_IMAGEN">
+    <!--CSS-->
     <link rel="stylesheet" href="./output.css">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!--img font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--img mi icon-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 
@@ -18,12 +46,12 @@
     </header>
     <main>
 
-        <h1 class="text-2xl font-bold mb-4 font-serif">Encriptador y desencritador de texto</h1>
+        <h1 class="text-2xl font-bold mb-4 font-serif hidden">Encriptador y desencritador de texto</h1>
         <div class="grid grid-cols-1 md:grid-cols-3">
-            <section class="card col-span-2 md:grid-cols-3 mx-auto ">
+            <section class="card col-span-2 md:grid-cols-3 mx-auto">
                 <textarea type="text" id="textarea" name="input-texto"
                     class="w-full  bg-background resize-none placeholder:text-secondary placeholder:text-2xl placeholder:font-bold text-secondary"
-                    placeholder="Ingrese el texto aquí" rows="14"></textarea>
+                    placeholder="Ingrese el texto aquí" rows="15"></textarea>
                 <div class="md:block grid place-content-center">
                     <p class="[font-size:0.6rem] cursor-help"
                         title="solo letras minúsculas, sin acentos ni caracteres especiales">
@@ -57,15 +85,17 @@
     <footer class="grid place-content-center mt-6">
         <section class="mx-auto">
 
-            <a href="https://www.linkedin.com/in/charlyotero/" target="_blank" rel="noopener">
-                linkedin
+            <a href="https://www.linkedin.com/in/charlyotero/" class="text-[#126bc4] text-2xl mx-2 hover:text-3xl"
+                target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://github.com/Charly92cjo" target="_blank" rel="noopener">
-                github
+            <a href="https://github.com/Charly92cjo" class="text-black text-2xl mx-2 hover:text-3xl" target="_blank"
+                rel="noopener">
+                <i class="fa-brands fa-github"></i>
             </a>
         </section>
-        <section class="mx-auto">
-            Carlos Otero - Alura Latam &#169;<span id="ano-actual"></span>
+        <section class="mx-auto font-bold text-xl">
+            Carlos Javier Otero - Alura Latam &#169;<span id="ano-actual" class="text-secondary"></span>
         </section>
     </footer>
     <script src="./app.js"></script>
