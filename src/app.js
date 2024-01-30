@@ -36,23 +36,29 @@ function encriptar() {
 }
 
 function desencriptar() {
-  var texto = document.getElementById("textarea").value;
-  if (texto == "") {
-    document.getElementById("no-mensaje").style.display = "block";
-    document.getElementById("salida-texto").style.display = "none";
-    document.getElementById("boton-copiar").style.display = "none";
+  if (validar() === true) {
+    var texto = document.getElementById("textarea").value;
+    if (texto == "") {
+      document.getElementById("no-mensaje").style.display = "block";
+      document.getElementById("salida-texto").style.display = "none";
+      document.getElementById("boton-copiar").style.display = "none";
+    } else {
+      texto = texto.replace(/enter/g, "e");
+      texto = texto.replace(/imes/g, "i");
+      texto = texto.replace(/ai/g, "a");
+      texto = texto.replace(/ober/g, "o");
+      texto = texto.replace(/ufat/g, "u");
+      document.getElementById("label-texto").innerHTML = "Texto desencriptado:";
+      document.getElementById("salida-texto").value = texto;
+      document.getElementById("no-mensaje").style.display = "none";
+      document.getElementById("salida-texto").style.display = "inline";
+      document.getElementById("boton-copiar").style.display = "inline";
+      document.getElementById("label-texto").style.display = "inline";
+    }
   } else {
-    texto = texto.replace(/enter/g, "e");
-    texto = texto.replace(/imes/g, "i");
-    texto = texto.replace(/ai/g, "a");
-    texto = texto.replace(/ober/g, "o");
-    texto = texto.replace(/ufat/g, "u");
-    document.getElementById("label-texto").innerHTML = "Texto desencriptado:";
-    document.getElementById("salida-texto").value = texto;
-    document.getElementById("no-mensaje").style.display = "none";
-    document.getElementById("salida-texto").style.display = "inline";
-    document.getElementById("boton-copiar").style.display = "inline";
-    document.getElementById("label-texto").style.display = "inline";
+    alert(
+      "El texto no es válido. Solo se permiten letras minúsculas y espacios."
+    );
   }
 }
 
