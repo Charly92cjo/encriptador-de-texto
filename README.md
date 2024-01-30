@@ -36,5 +36,6 @@ Siéntete libre de contribuir al proyecto. Puedes reportar problemas, proponer n
 ## Imagenes de la página
 
 ![pagina desktop](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador.png)
-![pagina movile](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador2.png)
+![pagina mobile](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador2.png)
+![pagina mobile2](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador3.png)
 
