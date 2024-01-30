@@ -1,4 +1,4 @@
-![Muñeco alura](src/img/muñeco.svg)
+![src/img/muñeco.svg](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/Mu%C3%B1eco.svg)
 
 # Alura Latam - ONE Encryptor
 
