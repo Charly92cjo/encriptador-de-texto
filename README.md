@@ -1,6 +1,6 @@
-![src/img/muñeco.svg](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/Mu%C3%B1eco.svg)
-
 # Alura Latam - ONE Encryptor
+
+![src/img/muñeco.svg](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/Mu%C3%B1eco.svg)
 
 Este proyecto es un simple encriptador de texto llamado Alura Latam - ONE. Permite a los usuarios encriptar mensajes de texto de manera segura utilizando un algoritmo interno personalizado.
 
@@ -13,14 +13,14 @@ Este proyecto es un simple encriptador de texto llamado Alura Latam - ONE. Permi
 ## Tecnologías Utilizadas
 
 - **HTML:** Estructura básica de la página web.
-- **CSS:** Estilos para una presentación atractiva y responsive.
-- **JavaScript:** Lógica de encriptación y manipulación del DOM.
+- **CSS:** Estilos para una presentación atractiva y responsive con Tailwind.
+- **JavaScript:** Lógica de encriptación y desencriptación, manipulación del DOM.
 
 ## Cómo Utilizar
 
 1. Clona o descarga este repositorio en tu máquina local.
 2. Abre el archivo `index.html` en tu navegador web.
-3. Ingresa el mensaje que deseas encriptar.
+3. Ingresa el mensaje que deseas encriptar/desencriptar.
 4. Haz clic en el botón de encriptación para obtener el mensaje encriptado.
 
 ## Contribuciones
