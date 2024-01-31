@@ -3,4 +3,6 @@ package-lock.json
 
 postcss.config.js
 
-input.css
+src/input.css
+src/output.css
+

@@ -31,7 +31,8 @@
     <meta name="twitter:image"
         content="https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador.png">
     <!--CSS-->
-    <link rel="stylesheet" href="./output.css">
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <link rel="stylesheet" href="./style.css">
     <!--img font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!--img mi icon-->
@@ -49,7 +50,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3">
             <section class="card col-span-2 md:grid-cols-3 mx-auto">
                 <textarea type="text" id="textarea" name="input-texto"
-                    class="w-full  bg-background resize-none placeholder:text-secondary placeholder:text-2xl placeholder:font-bold text-secondary"
+                    class="w-full  bg-background resize-none placeholder:text-secondary placeholder:text-2xl placeholder:font-bold text-secondary text-xl"
                     placeholder="Ingrese el texto aquí" rows="15"></textarea>
                 <div class="md:block grid place-content-center">
                     <p class="[font-size:0.6rem] cursor-help"
@@ -67,28 +68,28 @@
                 <div id="no-mensaje">
                     <img src="img/Muñeco.svg" alt="Muñeco inspeccionando el encriptador"
                         class="mx-auto md:block hidden">
-                    <p class="text-center font-bold text-xl mt-0 md:mt-8 mx-8">Ningún mensaje fue encontrado</p>
+                    <p class="text-center font-bold text-xl mt-0 md:mt-8 mx-6">Ningún mensaje fue encontrado</p>
                     <p id="message-text" class="my-4 text-center mx-3">Ingrese el texto que desee encriptar o
                         desencriptar.
                     </p>
                 </div>
-                <label id="label-texto" for="salida-texto" style="display: none;"
-                    class="text-xl text-secondary mb-4 font-bold"></label>
-                <textarea class="resize-none" type="text" id="salida-texto" name="salida-texto" style="display: none;"
+                <label id="label-texto" for="salida-texto" class="text-xl text-secondary mb-4 font-bold hidden"></label>
+                <textarea class="resize-none hidden" type="text" id="salida-texto" name="salida-texto"
                     rows="12"></textarea>
-                <button class="bg-secondary hover:bg-blue-700 my-3 text-white font-bold py-2 px-2 rounded-xl mx-2"
-                    id="boton-copiar" onclick="copiar()" style="display:none">Copiar</button>
+                <button
+                    class="hidden bg-secondary hover:bg-blue-700 my-3 text-white font-bold py-2 px-2 rounded-xl mx-2"
+                    id="boton-copiar" onclick="copiar()">Copiar</button>
             </section>
         </div>
     </main>
     <footer class="grid place-content-center mt-6">
         <section class="mx-auto">
             <a href="https://www.linkedin.com/in/charlyotero/" class="text-[#126bc4] text-2xl mx-2 hover:text-3xl"
-                target="_blank" rel="noopener">
+                title="Ir a LinkedIn" target="_blank" rel="noopener">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://github.com/Charly92cjo" class="text-black text-2xl mx-2 hover:text-3xl" target="_blank"
-                rel="noopener">
+                title="Ir a Github" rel="noopener">
                 <i class="fa-brands fa-github"></i>
             </a>
         </section>

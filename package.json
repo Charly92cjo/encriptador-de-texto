@@ -4,8 +4,8 @@
   "description": "Encriptador de texto",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss ./src/input.css -o ./scr/output.css",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    "build:css": "postcss ./src/input.css -o ./scr/style.css",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
   },
   "repository": {
     "type": "git",
