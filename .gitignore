@@ -1,8 +1,8 @@
 node_modules
 package-lock.json
-
+package.json
 postcss.config.js
-
+tailwind.config.js
 src/input.css
 src/output.css
 
