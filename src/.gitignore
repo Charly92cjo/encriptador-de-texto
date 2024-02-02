@@ -1,8 +1,0 @@
-/node_modules
-node_modules
-postcss.config.js
-package.json
-package-lock.json
-src/input.css
-src/outpu.css
-tailwind.config.js
