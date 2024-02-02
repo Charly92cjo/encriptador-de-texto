@@ -1,6 +1,6 @@
 # Alura Latam - ONE Encryptor
 
-![src/img/muñeco.svg](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/Mu%C3%B1eco.svg)
+![src/img/muñeco.svg](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/img/Mu%C3%B1eco.svg)
 
 Este proyecto es un simple encriptador de texto llamado Alura Latam - ONE. Permite a los usuarios encriptar mensajes de texto de manera segura utilizando un algoritmo interno personalizado.
 
@@ -37,14 +37,14 @@ Siéntete libre de contribuir al proyecto. Puedes reportar problemas, proponer n
 
 Vista Desktop
 
-![pagina desktop](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador.png)
+![pagina desktop](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/img/alura%20pagina%20encriptador.png)
 
 Vista Mobile
 
-![pagina mobile](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador2.png)
+![pagina mobile](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/img/alura%20pagina%20encriptador2.png)
 
 Vista Mobile con texto
 
-![pagina mobile2](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/src/img/alura%20pagina%20encriptador3.png)
+![pagina mobile2](https://github.com/Charly92cjo/encriptador-de-texto/blob/main/img/alura%20pagina%20encriptador3.png)
 
 ## Espero que les haya gustado!
